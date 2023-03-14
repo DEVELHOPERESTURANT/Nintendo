@@ -23,6 +23,14 @@ main{
     border-radius: 3px;
     width: 15%;
 }
+.imageCharacters{
+    overflow: hidden;
+}
+.imageCharacters:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
 .cardCharacters h4{
     font-size: 21px;
     font-family: sans-serif;
@@ -31,6 +39,7 @@ main{
     width: 100%;
     border-top: 0px solid black;
     border-radius: 3px;
+    
 }
 .characters h3{
     font-size: 28px;
@@ -140,3 +149,10 @@ main{
     margin-top:20px ;
     
 }
+.digitalCard:hover h5 {
+    color: red;
+  }
+  .digitalCard:hover img{
+    transform: translateY(-15px);
+    transition: 0.3s;
+  }
