@@ -130,7 +130,34 @@ a {
   transition: 0.5s;
   fill: red;
 }
+.brandbar .logo_social {
+  background-color: rgb(230, 0, 18);
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto repeat(4, 58px);
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 4rem;
+  justify-content: center;
+  margin: 1rem;
+  padding: 2rem;
+}
+.grid  ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
 
+ul > li {
+  list-style: none;
+}
 .jumbotron-top {
   background-image: linear-gradient(rgb(78, 211, 255), white);
   padding: 2rem 2rem;
@@ -296,4 +323,64 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
+ul > li > a {
+  color: rgb(230, 0, 18);
+}
+ul > li > a:hover {
+  text-decoration: underline rgb(230, 0, 18);
+  transition: 0.5s;
+}
+h4 > a {
+  color: rgb(72, 72, 72);
+}
+h4 > a:hover {
+  color: rgb(72, 72, 72);
+  text-decoration: underline rgb(72, 72, 72);
+  transition: 0.5s;
+}
+.aboutNintendo, .shop, .orders, .support, .parent, .community, .privacy {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgb(218, 218, 218);
+}
+.certificate {
+  display: grid;
+  justify-content: end;
+  padding-right: 1rem;
+  padding-bottom: 4rem;
+}
+.copyright_terms {
+  display: grid;
+  grid-template-columns: 2fr auto auto auto;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  padding: 2rem;
+}
+.copyright {
+  color: white;
+  font-size: 10px;
+}
+.terms {
+  display: inline-flex;
+  gap: 15px;
+}
+.terms > a {
+  color: white;
+  font-size: 12px;
+}
+.terms > a:hover {
+  border-bottom: 2px solid white;
+}
+.copyright_terms > a {
+  color: white;
+  font-size: 12px;
+}
+.copyright_terms > a:hover {
+  border-bottom: 2px solid white;
+}
 /*# sourceMappingURL=style.css.map */
