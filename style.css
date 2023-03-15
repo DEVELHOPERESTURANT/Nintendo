@@ -48,7 +48,6 @@ main{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(159, 159, 159);
 }
 
 .navbar-top-left {
@@ -65,7 +64,7 @@ main{
 
 .logo span {
   font-weight: bold;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 15px;
   padding: 0.2rem;
 }
@@ -111,7 +110,8 @@ svg {
   gap: 1rem;
   padding: 1rem 0;
   font-size: small;
-  border-bottom: 1px solid rgb(159, 159, 159);
+  border-bottom: 1px solid rgb(201, 201, 201);
+  border-top: 1px solid rgb(201, 201, 201);
 }
 
 .link > a {
@@ -158,6 +158,7 @@ a {
 ul > li {
   list-style: none;
 }
+
 .jumbotron-top {
   background-image: linear-gradient(rgb(78, 211, 255), white);
   padding: 2rem 2rem;
