@@ -281,7 +281,7 @@ a {
   padding-top: 1rem;
 }
 
-.big-card:hover > .card-link > .big-card-image, .small-card:hover > .small-card-image {
+.big-card:hover > .card-link > .big-card-image, .small-card:hover > .text > .small-card-image {
   filter: brightness(0.5);
   transition: all 0.2s ease-in-out;
 }
