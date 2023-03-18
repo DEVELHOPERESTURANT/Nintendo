@@ -469,3 +469,347 @@ h4 > a:hover {
   border-bottom: 2px solid white;
 }
 /*# sourceMappingURL=style.css.map */
+
+.featured {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.feat {
+  height: 2.36rem;
+  width: 90%;
+  margin-left: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  overflow: auto;
+}
+
+.cardFeatured {
+  width: 16.375rem;
+
+  display: block;
+  margin: 16px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 0.25rem;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(72, 72, 72);     
+}
+
+
+
+
+.title {
+  justify-content: space-between;
+  width: 16.25rem;
+  height: 7rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+
+}
+
+.textcontent {
+  height: 4rem;
+  width: 14.25rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+
+
+.line {
+  height: 1rem;
+  width: 2px;
+  border-left: 2px solid rgb(230, 0, 18);
+  margin-right: 0.375rem;
+}
+
+.console {
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.img {
+  width: 100%;
+  transition: transform 200ms ease-in-out 25ms;
+
+}
+
+.contimg {
+  width: 100%;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(218, 218, 218);
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  overflow: hidden;
+
+  position: relative;
+  transition: top 200ms ease-in-out 25ms;
+  top: 0;
+
+}
+
+.hover:hover, .contimg:hover  {
+  top: -10px;
+  color: rgb(230, 0, 18);
+  transition: all 200ms ease-in-out 0s;
+
+}
+
+
+.cardLabel {
+  height: 4rem;
+  width: 14.25rem;
+
+}
+
+.subtitle {
+   display: flex;
+   width: 11.75rem;
+   height: 1.5rem;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+}
+
+.subtitle span {
+     
+  width: 188px;
+  height: 1.5rem;
+}
+
+.ninstore {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.ninContent {
+  width: 71.5rem;
+  height: 23.661rem;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.ninGrid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  justify-items: start;
+  align-items: center;
+  width: 71.5rem;
+  height: 23.66rem;
+}
+
+.online {
+  grid-column: 1 / span 2;
+}
+
+.store {
+  height: 11.023rem;
+}
+
+p {
+  font-size: 1.3125rem;
+  font-weight: 300;
+  margin: 1.3125rem 0px;
+}
+
+.storeDescription {
+  width: 58.767rem;
+  height: 3.674rem;
+}
+
+.ninButton {
+  height: 3rem;
+  font-size: 1.125rem;
+  padding: 0px 1.5rem;
+  width: 10.733rem;
+  background-color: rgb(230, 0, 18);
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 0, 18);
+  border-radius: 0.25rem; 
+}
+
+.ninButton:hover {
+  background-color: rgb(173, 0, 14);
+  border-color: rgb(173, 0, 14);
+}
+
+.start {
+  font-size: 1.125rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* css davide*/
+.allDigitalCards{
+  display: flex;
+  margin-left: 21%;
+}
+.digitalNewReleases{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.new{
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  width: 18%;
+  text-align: center;
+  border-radius: 4px;
+  margin-top:20px ;
+  
+}
+.digitalCard:hover h5 {
+  color: red;
+}
+.digitalCard:hover img{
+  transform: translateY(-15px);
+  transition: 0.3s;
+}
+
+.characters{
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.cardCharacters{
+  margin: 5px;
+  border-radius: 3px;
+  width: 15%;
+}
+.imageCharacters{
+  overflow: hidden;
+}
+.imageCharacters:hover img{
+  transform: scale(1.1);
+  transition: 0.3s;
+  
+}
+.cardCharacters h4{
+  font-size: 21px;
+  font-family: sans-serif;
+}
+.cardCharacters img{
+  width: 100%;
+  border-top: 0px solid black;
+  border-radius: 3px;
+  
+}
+.characters h3{
+  font-size: 28px;
+  padding-left: 19%;
+  padding-top: 55px;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+
+.digitalBestSellers{
+  margin-top: 50px;
+  
+}
+.name{
+  display: flex;
+}
+.name h3{
+  font-family: sans-serif;
+  font-size: 28px;
+  padding-left: 19%;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  border-right: 1px solid grey;
+}
+.name a{
+  padding-left: 15px;
+  color: #b10211;
+  font-family: sans-serif;
+  font-size: 16px ;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.digitalCard{
+  width: 17%;
+  height: 300px;
+  margin-top: 3%;
+  margin-right: 25px;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-radius: 3px 3px 3px 3px;
+}
+.digitalCard img{
+  width: 100%;
+  height: 40%;
+  border-top: 1px solid ;
+  border-radius: 3px 3px 0px 0px;
+  object-fit: cover;
+}
+.centerCard{
+  height: 56%;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+.centerCard h5{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(26, 26, 26);
+  padding-bottom: 7px;
+}
+.date{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.815);
+  font-family: sans-serif;
+}
+.price{
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.footerCard{
+  display: flex;
+  justify-content: space-between;
+}
+.digitalCard > .console{
+  font-family: sans-serif;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.815);
+  margin-top: 11px;
+  border-left: 2px solid #b10211;
+  padding-left: 5px;
+}
+.footerCard > i{
+  margin-top: 15px;
+  margin-right: 10px;
+  color: #b10211;
+  font-size: 20px;
+}
