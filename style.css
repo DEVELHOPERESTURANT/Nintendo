@@ -222,7 +222,7 @@ ul > li {
   padding: 0.5rem 2rem;
   border: 1px solid rgb(167, 167, 167);
   border-radius: 5px;
-
+  font-size: small;
 }
 
 .dropdown-menu-2 {
@@ -247,6 +247,7 @@ ul > li {
 .container-button-menu-2 > p {
   color: black;
   margin-top: 0.5rem;
+  font-size: small;
 }
 
 .jumbotron-top {
@@ -607,14 +608,10 @@ h3 {
   align-items: center;
 }
 
-.ninGrid {
-  display: grid;
-  grid-template-columns: auto 1fr;
+.title-onlinestore {
+  margin-top: 2rem;
+  display: flex;
   gap: 2rem;
-  justify-items: start;
-  align-items: center;
-  width: 71.5rem;
-  height: 23.66rem;
 }
 
 .online {
@@ -625,13 +622,13 @@ h3 {
   height: 11.023rem;
 }
 
-p {
+.store-description-p {
   font-size: 1.3125rem;
   font-weight: 300;
   margin: 1.3125rem 0px;
 }
 
-.storeDescription {
+.storeDescript {
   width: 58.767rem;
   height: 3.674rem;
 }
