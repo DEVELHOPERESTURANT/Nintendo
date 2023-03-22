@@ -756,8 +756,9 @@ h3 {
   color: #b10211;
   font-family: sans-serif;
   font-size: 16px ;
-  padding-top: 10px;
+  padding-top: 25px;
   font-weight: bold;
+  text-decoration: underline;
 }
 .digitalCard{
   width: 17%;
