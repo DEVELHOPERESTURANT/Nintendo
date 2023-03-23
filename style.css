@@ -484,6 +484,7 @@ h4 > a:hover {
   margin-left: 2.5rem;
   font-size: 1.75rem;
   font-weight: 700;
+  color: rgb(72, 72, 72);
 }
 
 .card-container {
@@ -621,6 +622,9 @@ h3 {
 .online {
   margin-bottom: 1rem;
   grid-column: 1 / span 2;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
 }
 
 .store {
@@ -629,8 +633,9 @@ h3 {
 
 .store-description-p {
   font-size: 1.3125rem;
-  font-weight: 300;
+  font-weight: 700;
   margin: 1.3125rem 0px;
+  color: rgb(72, 72, 72);
 }
 
 .storeDescript {
